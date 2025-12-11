@@ -367,7 +367,7 @@ class GameAI():
             return "andar" if self.dir == "north" else "virar_esquerda"
         return "andar"
 
-# Note: Esta função depende da importação 'import csv' no seu arquivo.
+    # Note: Esta função depende da importação 'import csv' no seu arquivo.
     def _log_and_return(self, action: str) -> str:
         """
         Registra a ação atual, observações e status do agente em um log CSV 
